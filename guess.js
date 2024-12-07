@@ -8,7 +8,7 @@ const wins = document.getElementById('wins');
 const loss = document.getElementById('loss');
 const money = document.getElementById('cashbox');
 const moneyPlayed = document.getElementById('stake');
-const comp = document.getElementById('comp');
+//const comp = document.getElementById('comp');
 
  
 function random(number){
@@ -99,7 +99,7 @@ if(moneyPlayed.value>0){
 }
  
 function play(){
- comp.innerText = random(10);
+ //comp.innerText = random(10);
   input.value === ''? score.counter : score.counter++;
     game(input.value,random(10))
    
